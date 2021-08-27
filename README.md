@@ -21,7 +21,6 @@ Welcome to Weather Stop!  This is an app that upon loading gives the user their 
 ## <p align="center"> List of API's Used/p><hr>
 <br>
 
-*
  <p align="center"> https://openweathermap.org/</p>
 
 <br>
