@@ -1,13 +1,10 @@
 const input = document.querySelector('#city');
 const button = document.getElementById('submit').addEventListener('click', userInput);
 
-
-
 async function userInput(){
 const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?q=${input.value}&appid=${APIKEY}`;
 const weatherData = await fetch (weatherURL);
 const weatherJson = await weatherData.json();
-console.log(weatherJson)
 
 const kelvin = weatherJson.list[0].main.temp;
 const degC = Math.floor(kelvin - 273.15);
