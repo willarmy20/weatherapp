@@ -1,5 +1,5 @@
-let input = document.querySelector('#city');
-let button = document.querySelector('#submit').addEventListener('click',userInput);
+const input = document.querySelector('#city');
+const button = document.getElementById('submit').addEventListener('click', userInput);
 
 
 function userInput(){
@@ -20,8 +20,10 @@ fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${input.value}&appid=$
     console.log(degF);
 
     let div = document.querySelector('#result');
-
-    div.textContent = `Current Temp: ${degF.toString()}`
+        // div.innerHTML = `<h2><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /> ${degF.toString()}°F <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /></h2>
+        // <small>${data.weather[0].main}</small>`;
+        div.textContent = `${degF.toString()} F°`
+        input.value = "";
 })
 }
 
