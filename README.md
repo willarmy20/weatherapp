@@ -6,7 +6,7 @@
 
 Welcome to Weather Stop!  This is an app that upon loading gives the user their current weather temperature by the user input. It uses weather APIs searching to give the complete forecast. 
 
-<p align="center"> languages Used and technology 💻</p><hr>
+<p align="center"> Languages Used and Technology 💻</p><hr>
 
 <hr>
 <br>
