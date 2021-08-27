@@ -28,6 +28,8 @@ Welcome to Weather Stop!  This is an app that upon loading gives the user their 
 
  <p align="center">Code Snipets</p><hr>
 
+ <p align="center">This is the a snipet of the code used to call the api to be able to get the data for the weather. </p>
+
  ```jsx
  const input = document.querySelector('#city');
 const button = document.getElementById('submit').addEventListener('click', userInput);
