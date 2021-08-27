@@ -45,7 +45,7 @@ const weatherJson = await weatherData.json();
 ## <p align="center"> Developer team</p>
 
 
-<p align="center">LaQuinta-[willarmy20](https://github.com/willarmy20)</p>
+<p align="center">LaQuinta-(https://github.com/willarmy20)</p>
 
 
 
