@@ -26,6 +26,19 @@ Welcome to Weather Stop!  This is an app that upon loading gives the user their 
 <br>
 <br>
 
+ <p align="center">Code Snippet</p><hr>
+
+ ```
+ const input = document.querySelector('#city');
+const button = document.getElementById('submit').addEventListener('click', userInput);
+
+async function userInput(){
+const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?q=${input.value}&appid=${APIKEY}`;
+const weatherData = await fetch (weatherURL);
+const weatherJson = await weatherData.json();
+
+ ```
+
 
 ## <p align="center"> Developer team</p>
 
