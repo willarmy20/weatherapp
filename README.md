@@ -10,22 +10,28 @@ Welcome to Weather Stop!  This is an app that upon loading gives the user their 
 ## languages Used and technology 💻
 <hr>
 <br>
+ <p align="center"> 
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+</p>
 <br>
 
 
 ## <p align="center"> List of API's Used/p><hr>
 <br>
 
-* https://openweathermap.org/
+*
+ <p align="center"> https://openweathermap.org/</p>
+
 <br>
 <br>
 
 
 ## <p align="center"> Developer team</p>
 
-LaQuinta-[willarmy20](https://github.com/willarmy20)
+
+<p align="center">LaQuinta-[willarmy20](https://github.com/willarmy20)</p>
+
 
 
