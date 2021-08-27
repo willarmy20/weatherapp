@@ -26,9 +26,9 @@ Welcome to Weather Stop!  This is an app that upon loading gives the user their 
 <br>
 <br>
 
- <p align="center">Code Snippet</p><hr>
+ <p align="center">Code Snipets</p><hr>
 
- ```
+ ```jsx
  const input = document.querySelector('#city');
 const button = document.getElementById('submit').addEventListener('click', userInput);
 
